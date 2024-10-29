@@ -10,6 +10,6 @@ int main(){
 	cout <<"podaj imie";
 	cout <<endl;
 	cin >>b;
-	cout << "witaj " << b << " masz " << a << " lat! i Hentnie spszedam to na czarnym rynku :D ";
+	cout << "witaj " << b << " masz " << a << " lat!";
     return 0;
 }
