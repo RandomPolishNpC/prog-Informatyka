@@ -6,20 +6,15 @@ int main(){
 	cin >> a;
 	if ((a>=0) && (a<=49)){
 		cout << "niedostateczna";
-	}
-	if ((a>=50) && (a<=69)){
+	} else if ((a>=50) && (a<=69)){
 		cout << "dostateczna";
-	}
-	if ((a>=70) && (a<=84)){
+	} else if ((a>=70) && (a<=84)){
 		cout << "dobra";
-	}
-	if ((a>=85) && (a<=99)){
+	} else if ((a>=85) && (a<=99)){
 		cout << "bardzo dobra";
-	}
-	if (a==100){
+	} else if (a==100){
 		cout << "celujaca";
-	}
-	if (a>100){
+	} else if (a>100){
 		cout << "bardzo smieszne ._.";
 	}
 	return 0;
