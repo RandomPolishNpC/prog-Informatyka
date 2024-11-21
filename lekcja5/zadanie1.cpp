@@ -21,7 +21,16 @@ int main(){
 			cout << "wynik: "<<(a*b);
 			break;
 		case '/':
+			if (a==0){
+				cout << "syntax error";
+				return 0;
+			} else if (b==0){
+				cout << "syntax error";
+				return 0;
+			}
 			cout << "wynik: "<<(a/b);
+			break;
 	}
+
 	return 0;
 }
